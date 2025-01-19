@@ -61,7 +61,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
               child: ElevatedButton(
                 onPressed: _resetPassword,
                 style: ElevatedButton.styleFrom(
-                  primary: blueColor,
+                  backgroundColor: blueColor,
                   padding: const EdgeInsets.symmetric(vertical: 15),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),

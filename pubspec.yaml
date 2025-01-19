@@ -1,5 +1,5 @@
 name: attendanceqrscan
-description: A new Flutter project.
+description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: ^3.6.1
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,20 +31,20 @@ dependencies:
   flutter:
     sdk: flutter
 
-  intl: any
-  firebase_core: any
-  firebase_database: any
-  firebase_auth: any
-  percent_indicator: any
-  image_picker: any
-  firebase_storage: any
-  file_picker: any
-  url_launcher: any
-  qr_code_scanner: any
-  # For YouTube video playback
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.1
+  firebase_core: ^3.10.0
+  firebase_database: ^11.3.0
+  firebase_auth: ^5.4.0
+  firebase_storage: ^12.4.0
+  percent_indicator: ^4.2.4
+  image_picker: ^1.1.2
+  file_picker: ^8.1.7
+  url_launcher: ^6.3.1
+  qr_code_scanner_plus: ^2.0.7
+  flutter_dotenv: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -55,7 +55,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -69,15 +69,16 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - .env
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
+  # https://flutter.dev/to/resolution-aware-images
 
   # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+  # https://flutter.dev/to/asset-from-package
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -97,4 +98,4 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # see https://flutter.dev/to/font-from-package

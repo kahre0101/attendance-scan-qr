@@ -239,7 +239,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     : ElevatedButton(
                   onPressed: _register,
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.amber,
+                    backgroundColor: Colors.amber,
                     padding:
                     EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                     shape: RoundedRectangleBorder(
