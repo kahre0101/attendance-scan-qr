@@ -89,7 +89,7 @@ class SplashScreen2 extends StatelessWidget {
                     );
                     },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.amber,
+                    backgroundColor: Colors.amber,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
                     ),

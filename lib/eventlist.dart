@@ -179,7 +179,7 @@ class EventFormPage extends StatelessWidget {
                   );
                 }
               },
-              style: ElevatedButton.styleFrom(primary: Colors.amber),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.amber),
               child: Text('Save', style: TextStyle(color: Colors.black)),
             ),
           ],
